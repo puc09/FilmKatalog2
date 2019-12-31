@@ -46,8 +46,7 @@ import static com.example.filmkatalog5.utility.Constant.LANGUANGE;
 public class TodayFilmReceiver extends BroadcastReceiver {
     public static final String TAG = TodayFilmReceiver.class.getSimpleName();
     public static final String CHANNEL_ID = "Channel 2";
-    public static final String CHANNEL_NAME = "KatalogFilmChannel";
-    private static int MAX_NOTIF = 8;
+    public static final String CHANNEL_NAME = "KatalogFilmChannel"; 
     private static int NOTIFICATION_ID = 202;
     private static ArrayList<Film> listFilm = new ArrayList<>();
 
