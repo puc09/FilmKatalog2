@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FilmKatalog5</string>
+    <string name="change_languages">Change Languages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_movies">MOVIES</string>
+    <string name="tab_tv">TV SERIES</string>
+    <string name="tab_fav_mov">FAVOURITE MOVIES</string>
+    <string name="tab_fav_tv">FAVOURITE TV SERIES</string>
+    <string name="votes">%s votes</string>
+    <string name="internet">No Internet Connection</string>
+    <string name="cast_image">These are the actors and the actrees images</string>
+    <string name="mseason">%s seasons</string>
+    <string name="mepisode">%s episodes</string>
+    <string name="hours">%02d hours %02d minutes</string>
+    <string name="minutes">%s minutes</string>
+    <string name="na">N/A</string>
+    <string name="search_mov">Search Movies</string>
+    <string name="search_tv">Search TV Shows</string>
+    <string name="daily_reminder">FilmKatalog5 is missing you!</string>
+    <string name="release">%1$s has been released today</string>
+
+    <string name="img_poster">These are movies or tv series poster</string>
+    <string name="homepage">Homepage:</string>
+    <string name="revenues">Revenues:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="genre">Genre:</string>
+    <string name="languages">Languages</string>
+    <string name="release_date">Release Date</string>
+    <string name="credits">The Cast</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="networks">Networks:</string>
+    <string name="first_aired">First Aired Date</string>
+    <string name="add_favorites">Add To Favourites</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favourites</string>
+    <string name="add_fav">Item has been successfully added to your favourite lists</string>
+    <string name="rem_fav">Item has been successfully removed from your favourite lists</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="empty_film">Empty: Looks like you haven\'t picked any favourite movies yet</string>
+    <string name="empty_tv">Empty: Looks like you haven\'t picked any favourite tv series yet</string>
+    <string name="search_movies_or_tvshows">Search Movies or TvShows</string>
+
+    <string name="notifications_reminder">Reminder Settings</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="summary_release">Turn on/off new movie release reminder.You will receive daily notification at 07AM</string>
+    <string name="daily_reminders">Daily Reminder</string>
+    <string name="summary_daily">Turn on/off application reminder.You will receive daily notification at 08AM</string>
+    <string name="settings">Settings</string>
+    <string name="appwidget_text">My Favourite Movies</string>
+    <string name="empty_widget">Favourite Data Still Empty</string>
+    <string name="release_today">Today new releases</string>
+    <string name="new_mov">new release movies</string>
+    <string name="more_mov">view more at filmkatalog5!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

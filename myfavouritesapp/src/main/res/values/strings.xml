@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyFavouritesApp</string>
+    <string name="change_languages">Change Languages</string>
+    <string name="favorit_image">This is favorit movies poster</string>
+    <string name="empty_fav">Empty : looks like you haven\'t picked any favourites movies yet..</string>
+    <string name="cast_mage">This is movies actor and actress image</string>
+    <string name="img_poster">These are movies poster</string>
+    <string name="homepage">Homepage:</string>
+    <string name="revenues">Revenues:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="genre">Genre:</string>
+    <string name="languages">Languages</string>
+    <string name="release_date">Release Date</string>
+    <string name="credits">The Casts</string>
+    <string name="sinopsis">Synopsis</string>
+    <string name="votes">%s votes</string>
+    <string name="hours">%02d hours %02d minutes</string>
+    <string name="na">N/A</string>
+
+
+</resources>

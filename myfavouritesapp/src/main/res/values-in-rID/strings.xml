@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFavouritesApp</string>
+    <string name="change_languages">Ubah Bahasa</string>
+    <string name="favorit_image">Ini adalah poster film kesukaan</string>
+    <string name="empty_fav">Kosong : tampaknya Anda belum memilih film kesukaan..</string>
+    <string name="cast_mage">Ini adalah gambar aktor dan aktris film</string>
+    <string name="img_poster">These are movies poster</string>
+    <string name="homepage">Homepage:</string>
+    <string name="revenues">Pendapatan:</string>
+    <string name="runtime">Durasi:</string>
+    <string name="genre">Katagori:</string>
+    <string name="languages">Bahasa</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="credits">Para Pemain</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="votes">%s votes</string>
+    <string name="hours">%02d jam %02d menit</string>
+    <string name="na">N/A</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmKatalog5</string>
+    <string name="change_languages">Ubah Bahasa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_movies">FILM</string>
+    <string name="tab_tv">SERIAL TV</string>
+    <string name="tab_fav_mov">FILM FAVORIT</string>
+    <string name="tab_fav_tv">SERIAL TV FAVORIT</string>
+    <string name="votes">%s suara</string>
+    <string name="internet">Tidak Ada Koneksi Internet</string>
+    <string name="mseason">%s musim</string>
+    <string name="mepisode">%s episode</string>
+    <string name="hours">%02d jam %02d menit</string>
+    <string name="na">N/A</string>
+    <string name="minutes">%s menit</string>
+    <string name="search_mov">Cari Film</string>
+    <string name="search_tv">Cari Serial TV</string>
+    <string name="cast_image">Ini adalah foto aktor dan aktris</string>
+    <string name="img_poster">Ini adalah poster film atau serial televisi</string>
+    <string name="homepage">Website:</string>
+    <string name="revenues">Pendapatan:</string>
+    <string name="runtime">Durasi:</string>
+    <string name="genre">Kategori:</string>
+    <string name="languages">Bahasa</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="credits">Para Pemain</string>
+    <string name="sinopsis">Ringkasan Cerita</string>
+    <string name="networks">Jaringan Kabel:</string>
+    <string name="first_aired">Pertamakali Tayang</string>
+    <string name="add_favorites">Tambah Ke Favorit</string>
+    <string name="home">Awal</string>
+    <string name="favorite">Favorit</string>
+    <string name="empty_film">Kosong: tampaknya Anda belum memilih film favorit</string>
+    <string name="empty_tv">Kosong: tampaknya Anda belum memilih serial tv favorit</string>
+    <string name="add_fav">Sukses menambahkan item ke daftar favorit</string>
+    <string name="rem_fav">Sukses menghapus item dari daftar favorit</string>
+    <string name="search_movies_or_tvshows">Cari Film atau Serial TV</string>
+    <string name="daily_reminder">FilmKatalog5 kehilangan Anda!</string>
+    <string name="release">%1$s telah dirilis hari ini!</string>
+    <string name="summary_release">Pengingat aplikasi film baru harian, Anda akan menerima notifikasi setiap pukul 7 pagi, tekan untuk mengaktifkan/mematikan setting</string>
+    <string name="notifications_reminder">Set Pengingat</string>
+    <string name="release_reminder">Pengingat Film Baru</string>
+    <string name="daily_reminders">Pengingat Harian</string>
+    <string name="summary_daily">Pengingat aplikasi film harian, Anda akan menerima notifikasi setiap pukul 8 pagi, tekan untuk mengaktifkan/mematikan setting</string>
+    <string name="settings">Setting</string>
+    <string name="appwidget_text">Film Kesukaan Saya</string>
+    <string name="empty_widget">Belum Ada Data Favorit</string>
+    <string name="release_today">Film Terbaru Hari Ini</string>
+    <string name="new_mov">film rilis terbaru</string>
+    <string name="more_mov">selengkapnya ada difilmkatalog5!</string>
+
+</resources>

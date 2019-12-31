@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tv_card_poster"
+        android:layout_width="0dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/dimen_8"
+        app:cardCornerRadius="@dimen/dimen_8"
+        app:cardElevation="@dimen/dimen_8"
+        app:layout_constraintDimensionRatio="w,2:3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/gbr_films_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img_poster"
+            android:padding="@dimen/dimen_8"
+            android:scaleType="fitXY"
+            tools:src="@tools:sample/avatars" />
+
+        <ProgressBar
+            android:id="@+id/tv_loading"
+            style="@style/Base.Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="68dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textSize="@dimen/text_size_16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_card_poster"
+        app:layout_constraintTop_toTopOf="@+id/tv_card_poster"
+        tools:text="DC's The Legends of Tomorrow" />
+
+    <TextView
+        android:id="@+id/lbl_total_seas"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:textSize="@dimen/text_size_13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_judul"
+        app:layout_constraintTop_toBottomOf="@+id/tv_judul"
+        tools:text="5 Seasons" />
+
+    <TextView
+        android:id="@+id/lbl_total_epis"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:textSize="@dimen/text_size_13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lbl_total_seas"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_total_seas"
+        tools:text="1000 Episodes" />
+
+    <TextView
+        android:id="@+id/label_homepage"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/homepage"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lbl_total_epis"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_total_epis" />
+
+    <TextView
+        android:id="@+id/tv_homepage"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/label_homepage"
+        app:layout_constraintTop_toBottomOf="@+id/label_homepage"
+        tools:text="http://www.theflash.movie" />
+
+    <TextView
+        android:id="@+id/label_network"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/networks"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_homepage"
+        app:layout_constraintTop_toBottomOf="@+id/tv_homepage" />
+
+    <TextView
+        android:id="@+id/network"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/label_network"
+        app:layout_constraintTop_toBottomOf="@id/label_network"
+        tools:text="Yutube" />
+
+
+    <TextView
+        android:id="@+id/label_runtime"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/runtime"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/network"
+        app:layout_constraintTop_toBottomOf="@+id/network" />
+
+    <TextView
+        android:id="@+id/tv_runtime"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_runtime"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/label_runtime"
+        app:layout_constraintTop_toBottomOf="@+id/label_runtime"
+        tools:text="5 Jam" />
+
+    <TextView
+        android:id="@+id/label_genre"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/genre"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_runtime"
+        app:layout_constraintTop_toBottomOf="@+id/tv_runtime" />
+
+    <TextView
+        android:id="@+id/tv_genre"
+        style="@style/Tvsmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_4"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/label_genre"
+        app:layout_constraintTop_toBottomOf="@+id/label_genre"
+        tools:text="Science Fiction" />
+
+    <View
+        android:id="@+id/vw_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:background="@color/md_blue_grey_200"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_card_poster"
+        app:layout_constraintTop_toBottomOf="@+id/tv_card_poster" />
+
+    <ProgressBar
+        android:id="@+id/detail_tv_loading"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vw_1" />
+
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_8"
+        android:drawableEnd="@drawable/ic_star_black_24dp"
+        android:drawablePadding="@dimen/dimen_8"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:textSize="@dimen/text_size_15"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_vote"
+        app:layout_constraintStart_toStartOf="@+id/tv_vote"
+        app:layout_constraintTop_toTopOf="@+id/tv_tahun"
+        tools:text="9.0" />
+
+    <TextView
+        android:id="@+id/tv_vote"
+        style="@style/Tvsmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginEnd="8dp"
+        android:textSize="@dimen/text_size_12"
+        app:layout_constraintEnd_toStartOf="@+id/label_lang"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rating"
+        tools:text="2050 votes" />
+
+    <TextView
+        android:id="@+id/tv_lang"
+        style="@style/Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:drawableStart="@drawable/ic_language_black_24dp"
+        android:drawablePadding="@dimen/dimen_8"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:textSize="@dimen/text_size_15"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/vw_1"
+        app:layout_constraintTop_toBottomOf="@+id/vw_1"
+        tools:text="En" />
+
+    <TextView
+        android:id="@+id/label_lang"
+        style="@style/Tvsmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:singleLine="true"
+        android:text="@string/languages"
+        android:textSize="@dimen/text_size_12"
+        app:layout_constraintEnd_toEndOf="@+id/tv_lang"
+        app:layout_constraintStart_toStartOf="@+id/tv_lang"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lang" />
+
+    <TextView
+        android:id="@+id/tv_tahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_8"
+        android:drawableStart="@drawable/ic_av_timer_black_24dp"
+        android:drawablePadding="4dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:textSize="@dimen/text_size_15"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/label_tahun"
+        app:layout_constraintStart_toStartOf="@+id/label_tahun"
+        app:layout_constraintTop_toBottomOf="@+id/vw_1"
+        tools:text="14-12-2018" />
+
+    <TextView
+        android:id="@+id/label_tahun"
+        style="@style/Tvsmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:gravity="center"
+        android:text="@string/first_aired"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/label_lang"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tahun" />
+
+    <View
+        android:id="@+id/vw_mid"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@color/md_blue_grey_200"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_vote"
+        app:layout_constraintTop_toBottomOf="@+id/label_tahun" />
+
+    <TextView
+        android:id="@+id/lbl_casts"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:text="@string/credits"
+        android:textSize="@dimen/text_size_14"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vw_mid" />
+
+    <ProgressBar
+        android:id="@+id/rv_cast_load"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_casts" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tv_cast_rv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_4"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:paddingStart="@dimen/dimen_10"
+        android:paddingEnd="@dimen/dimen_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_casts"
+        tools:listitem="@layout/list_cast" />
+
+    <View
+        android:id="@+id/vw_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:background="@color/md_blue_grey_200"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cast_rv" />
+
+    <TextView
+        android:id="@+id/lbl_sinopsis"
+        style="@style/Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:text="@string/sinopsis"
+        android:textSize="@dimen/text_size_14"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vw_bottom" />
+
+    <TextView
+        android:id="@+id/tv_sinopsis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:letterSpacing="-0.05"
+        android:lineSpacingExtra="@dimen/spacing"
+        android:padding="@dimen/border"
+        android:textAlignment="inherit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="@dimen/text_size_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_sinopsis"
+        tools:text="@tools:sample/lorem/random" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
