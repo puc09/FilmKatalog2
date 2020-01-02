@@ -1,4 +1,4 @@
-# Catalogue Movies
+# Katalog Film
 Project akhir dicoding MADE.
 Ini adalah submission terakhir untuk kursus online Dicoding Menjadi Android Developer Expert.
 
